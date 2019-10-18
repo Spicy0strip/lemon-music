@@ -1,0 +1,66 @@
+@import "../../fonts/iconfont.css";
+
+@media screen and (max-width: 1000px) {
+    .top-nav {
+        .top-top {
+            .top-center {
+                text-align: center;
+                ul {
+                    padding: 0px;
+                    margin: 0px;
+                    margin-top: 20px;
+                    width: 190px;
+                    display: inline-block;
+                    li {
+                        margin-right: 39px;
+                        list-style: none;
+                        float: left;
+                        font-size: 110%;
+                        
+                        a {
+                            text-decoration: none;
+                            color: black;
+                            // z-index: 99;
+                            cursor: pointer;
+                            &:active {
+                                color: red;
+                            }
+                            
+                        }
+                        .nowing {
+                            color: red;
+                        }
+                        
+                        
+                    }
+                    li:nth-child(3) {
+                        margin-right: 0px;
+                    }
+                }
+            }
+          
+        }
+        .top-search {
+            margin-top: 15px;
+            text-align: center;
+            .input-search {
+                display: inline-block;
+                width: 95%;
+                border-radius: 12px;
+                height: 30px;
+                background-color: rgb(243, 243, 243);
+                // padding-top: 4px;
+                // display: table-cell;
+                position: relative;
+                span {
+                    position: absolute;
+                    vertical-align: middle;
+                    color: grey;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                }
+            }
+        }
+    }
+}

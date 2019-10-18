@@ -1,0 +1,46 @@
+@import "../../fonts/iconfont.css";
+
+@media screen and (max-width: 1000px) {
+    .play {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        height: 50px;
+        background: white;
+        border-top: 0.05px solid rgb(193, 193, 193);
+        z-index: 100;
+        cursor: pointer;
+        .play-listen {
+            
+            display: inline-block;
+            img {
+                width: 100%;
+                height: 50px;
+            }
+            .display-now {
+                display: none;
+            }
+            
+        }
+        .play-listen:nth-child(1) {
+            width: 50px;
+        }
+        .play-listen:nth-child(2) {
+            p {
+                margin-left: 10%;
+            }
+            p:last-child {
+                font-size: 80%;
+                color: grey;
+                margin-bottom: 5px;
+            }
+        }
+        .play-listen:nth-child(3) {
+            position: absolute;
+            right: 10%;
+            top: 15px;
+            cursor: pointer;
+        }
+    }
+    
+}

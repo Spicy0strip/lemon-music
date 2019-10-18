@@ -1,0 +1,195 @@
+@import "../../fonts/iconfont.css";
+
+@media screen and (max-width: 1000px) {
+    .Music {
+        margin-top: 15px;
+       
+        .Musicc {
+             text-align: center;
+             position: relative;
+            .music-shuffing {
+                display: inline-block;
+                width: 95%;
+                overflow: hidden;
+               
+                .shuffing-big {
+                    position: relative;
+                    li {
+                        list-style: none;
+                        float: left;
+                        a {
+                            img {
+                               width: 100%;
+                            }
+                        }
+                    }
+                    overflow: hidden;
+                }
+                .shuffing-small {
+                    position: absolute;
+                    width: 50%;
+                    left: 35%;
+                    bottom: 27px;
+                    li {
+                        float: left;
+                        width: 6px;
+                        height: 6px;
+                        margin-right: 3%;
+                        height: 6px;  
+                        list-style: none;  
+                        .shuffing-move {
+                            width: 100%;
+                            height: 6px;
+                            background-color: white;
+                            border-radius: 50%;
+                            cursor: pointer;
+                        }
+                        .shuffing-special,
+                        .shuffing-move:hover {
+                            width: 8px;
+                            height: 6px;
+                            background-color: #f35454;
+                        }
+                    }
+                    
+                  
+                }
+            }  
+        } 
+
+        .Recommend-playlist {
+            text-align: center;
+            .playlist-container {
+                margin-bottom: 10px;
+                width: 95%;
+                display: inline-block;
+                .container-h3 {
+                    position: relative;
+                    text-align: left;
+                    h3 {
+                        width: 90%;
+
+                    }
+                    .container-direction {
+                        position: absolute;
+                        top: 0;
+                        right: 0;
+                        width: 30px;
+                        height: 20px;
+                        background: rgb(228, 228, 228);
+                        display: inline-block;
+                        text-align: center;
+                        color: grey;
+                        i {
+                            cursor: pointer;
+                        }
+                    }
+                }
+                
+            }
+
+            .playList {
+                text-align: left;
+                .list {
+                    width: 32%;
+                    display: inline-block;
+                    margin-right: 2%;
+                    img {
+                        width: 100%;
+                    }
+                    p {
+                        box-sizing: border-box;
+                        font-size: 80%;
+                        height: 35px;
+                        margin-bottom: 15px;
+                        padding-left: 8px;
+                        padding-right: 8px;
+                        margin-top: 5px;
+                    }
+                }
+                .list:nth-child(3),
+                .list:nth-child(6) {
+                    margin-right: 0;
+                }
+            }
+        }
+
+        .new-courier {
+            
+            .new-container {
+                margin-bottom: 15px;
+                width: 95%;
+                display: inline-block;
+                .container-h3 {
+                    position: relative;
+                    text-align: left;
+                    h3 {
+                        width: 90%;
+
+                    }
+                    .container-direction {
+                        position: absolute;
+                        top: 0;
+                        right: 0;
+                        width: 30px;
+                        height: 20px;
+                        background: rgb(228, 228, 228);
+                        display: inline-block;
+                        text-align: center;
+                        color: grey;
+                        i {
+                            cursor: pointer;
+                        }
+                    }
+                }
+                
+            }
+            .new-songs{
+                // margin-top: 15px;
+                text-align: left;
+                .new-song {
+                    cursor: pointer;
+                    width: 100%;
+                    position: relative;
+                    .list {
+                        float: left;
+                        .arither {
+                            font-size: 80%;
+                            color: grey;
+                        }
+                    }
+                   
+                    .list:nth-child(1) {
+                        width: 15%;
+                    }
+                    .list:nth-child(2) {
+                        width: 50%;
+                        margin-top: 3%;
+                        margin-left: 1%;
+                        p {
+                            margin-top: 1%;
+                        }
+                    }
+                    .list:nth-child(3) {
+                        clear: both;
+                        position: absolute;
+                        right: 0;
+                        // top: 25px;
+                        margin-top: 5%;
+                        
+                    }
+                    img {
+                        width: 100%;
+                    }
+                }
+                .new-song:last-child {
+                    margin-bottom: 60px;
+                }
+            }
+        }
+    }
+}
+
+.clear-null {
+    clear: both;
+}
